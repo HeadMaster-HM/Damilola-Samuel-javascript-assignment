@@ -14,9 +14,15 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
+    var total=0;
+    for(var i in arrayOfNumbers) {
+        total += arrayOfNumbers[i];
+    }
     return arrayOfNumbers.length;
 }
-// assignment.sumOfNumbers = sumOfNumbers;
+
+sumOfNumbers([45,67,76,45,34,26,75])
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
