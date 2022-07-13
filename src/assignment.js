@@ -18,6 +18,8 @@ function sumOfNumbers(arrayOfNumbers) {
     for(var i in arrayOfNumbers) {
         total += arrayOfNumbers[i];
     }
+
+    // console.log(total);
     return arrayOfNumbers.length;
 }
 
