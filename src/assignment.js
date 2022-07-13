@@ -20,7 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sum += arrayOfNumbers;
   });
 
-  console.log(sum);
+  console.log("Sum of numbers in array = " +sum);
   return arrayOfNumbers.length;
 }
 
